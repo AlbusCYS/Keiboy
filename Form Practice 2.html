@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<form>
+    <p>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" size="30" maxlength="30">
+    </p>
+    <p>
+        <label for="bentley">Are you associated with Bentley College?</label>
+        <input type="checkbox" id="bentley" value="true">
+        <label for="bentley">True</label>
+        <input type="checkbox" id="bentley" value="false">
+        <label for="bentley">False</label>
+        <label for="other">Other:</label>
+        <input type="text" id="other" value="specify">
+    </p>
+    <p>
+        <label id="background">If not associated with Bentley, what is your professional background</label>
+        <p>
+        <select id="background">
+            <option>Academic</option>
+            <option>Business</option>
+            <option>Engineering</option>
+            <option>Information Technology</option>
+        </select>
+        </p>
+    </p>
+    <p> 
+        <label id="www">Your relation to the World Wide Web?</label>
+        <p>
+        <input type="radio" id="www" name="relation" value="1">
+            <span>Casual Browser</span>
+        </p>
+        <p>
+        <input type="radio" id="www" name="relation" value="2">
+            <span>Experienced Browser</span>
+        </p>
+        <p>
+        <input type="radio" id="www" name="relation" value="3">
+            <span>Experienced HTML author</span>
+        </p>
+    </p>
+    <br />
+    <p>
+        <label id="suggestion">Your comments,questions, and suggestions are welcome:</label>
+    </p>
+    <p>
+        <textarea type="msg" cols="100" rows="10"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset Form">
+    </p>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form>
+            <p>
+                <label>Your Name:</label>
+                <input type="text" name="user_name" size="30" maxlength="30">
+            </p>
+            <p>
+                <label id="bentley">Are you Associated with Bentley College?</label>
+                <input type="checkbox" id="bentley" name="associated" value="true">
+                <label id="bentley">True</label>
+                <input type="checkbox" id= "bentley" name="associated" value="false">
+                <label id="bentley">False</label>
+                <label>Other:</label>
+                <input type="text" name="Other" value="specify">
+            </p>
+            <p>
+                If not associated with Bentley, what is your professional background?
+            </p>
+            <p>
+                <select name="background">
+                    <option>Academic</option>
+                    <option>Business</option>
+                    <option>Engineering</option>
+                    <option>Information Technology</option>
+                </select>
+            </p>
+            <p>Your relation to the World Wide Web?</p>
+            <p>
+                <input type="radio" name="www" value="1">
+                    <span>Casual Browser</span>
+            </p>
+            <p>
+                <input type="radio" name="www" value="2">
+                    <span>Experienced Browser</span>
+            </p>
+            <p>
+                <input type="radio" name="www" value="3">
+                    <span>Experienced HTML author</span>
+            </p>
+            
+            <br />
+            <p>Your comments, questions, and suggestions are welcome:</p>
+            <p>
+                <textarea name="suggestions" rows="10" cols="100"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit form" name="submit">
+                <input type="reset" value="Reset form" name="submit">
+            </p>
+            
+
+
+        </form>
+    </body>
+</html>
